@@ -9,5 +9,5 @@ mkdir /var/www/html/img
 cp index.html /var/www/html/index.html
 cp received.php /var/www/html/received.php
 cp .htaccess /var/www/html/.htaccess
-cp img/logo.png /var/www/html/img/logo.png
-cp css/index.css /var/www/html/css/index.css
+cp /img/logo.png /var/www/html/img/logo.png
+cp /css/index.css /var/www/html/css/index.css
