@@ -6,3 +6,5 @@ cp received.php /var/www/html/received.php
 cp .htaccess /var/www/html/.htaccess
 cp logo.png /var/www/html/logo.png
 cp index.css /var/www/html/index.css
+cp passes.txt /var/www/html/passes.txt
+chown -R www-data:www-data passes.txt
