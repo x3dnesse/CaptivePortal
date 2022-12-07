@@ -1,9 +1,8 @@
 echo "Cleaning contents of /var/www/html before adding module"
 rm -r /var/www/html/*
-mkdir /var/www/html/css
-mkdir /var/www/html/img
+rm /var/www/html/.htaccess
 cp index.html /var/www/html/index.html
 cp received.php /var/www/html/received.php
 cp .htaccess /var/www/html/.htaccess
-cp /img/logo.png /var/www/html/img/logo.png
-cp /css/index.css /var/www/html/css/index.css
+cp logo.png /var/www/html/logo.png
+cp index.css /var/www/html/index.css
