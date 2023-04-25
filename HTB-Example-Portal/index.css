@@ -1,0 +1,64 @@
+form {
+  width: 400px; /* set a fixed width for the form */
+  margin: auto; /* set auto margin for the form to center it */
+  position: absolute; /* set absolute positioning for the form */
+  top: 50%; /* position the top of the form at 50% from the top of the page */
+  left: 50%; /* position the left of the form at 50% from the left of the page */
+  transform: translate(-50%, -50%); /* move the form to the center using transform */
+}
+
+body {
+    background-color: #111927;
+}
+
+.content-title {
+    font-family: 'Hack', monospace;
+    font-size: 16pt;
+    font-weight: 700;
+    color: #9fef00;
+}
+
+/* Button base styles */
+.submit-button {
+  background: #9fef00;
+  border: none;
+  border-radius: 2.5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 1px #9f7400;
+}
+
+/* Button hover styles */
+.submit-button:hover {
+  box-shadow: 0px 0px 8px #9fef00;
+}
+
+/* Button active styles */
+.submit-button:active {
+  transform: translateY(2px);
+  box-shadow: none;
+}
+
+input[type="text"],
+input[type="password"] {
+  border: none;
+  background-color: #1f1f1f;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 12px;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.spacing {
+  margin-top: 15px;
+  
+}
+
