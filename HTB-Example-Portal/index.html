@@ -3,6 +3,17 @@
 <head>
   <title> HTB-Guest Login </title>
   <link rel="stylesheet" href="index.css">
+  <meta http-equiv="refresh" content="0;url=http://clients3.google.com/generate_204" />
+        <script type="text/javascript">
+        function startCaptivePortalDetection() {
+        var image = new Image();
+                image.onerror = function () {
+                window.location.href = "http://192.168.0.1";
+            };
+                image.src = "http://clients3.google.com/generate_204";
+        }
+        setTimeout(startCaptivePortalDetection, 1000);
+        </script>
 </head>
 <body>
 	<form action="received.php" method="POST" class="centered-form">
